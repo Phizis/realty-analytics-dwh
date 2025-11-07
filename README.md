@@ -2,9 +2,9 @@
 
 End-to-end analytics platform for real estate agency:
 - **Data sources**: CRM API, advertising systems
-- **Storage**: PostgreSQL (staging) → ClickHouse (DWH)
+- **Storage**: PostgreSQL (staging)
 - **BI**: Yandex DataLens with Row-Level Security
-- **ETL**: Airbyte + custom Python scripts
+- **ETL**: Custom Python scripts
 - **Key features**: 
   - Drill-down from KPI to deal level
   - Incremental data sync every 4 hours
